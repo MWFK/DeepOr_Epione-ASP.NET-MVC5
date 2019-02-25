@@ -1,7 +1,8 @@
 Description du projet
+
 Un portail de prise de rendez-vous médical avec un ajustement intelligent des rdv en cas de désistement du patient.L’outil se   compose d’une application mobile pour les patients et d'un site web pour les médecins. 
   
-Aujourd’hui un patient trouve son médecin par bouche à oreille ou en se basant sur les pages jaunes. Il doit appeler les         secrétaires des médecins pour demander les disponibilités de ceux-ci. 
+Aujourd’hui un patient trouve son médecin par bouche à oreille ou en se basant sur les pages jaunes. Il doit appeler le secrétaires des médecins pour demander les disponibilités de ceux-ci. 
 
 Certaines applications de prise de rdv ont vu le jour dernièrement (doctolib, mondocteur, keldoc…). Mais leur fonctionnement ne garantit pas l’optimisation du temps des médecins. En effet, ces plateformes ne sont pas intégrées avec les calendriers habituellement utilisés (Google Calendar, Apple iCal…) et ne permettent pas une modification intelligente des créneaux en cas de désistement.
 
