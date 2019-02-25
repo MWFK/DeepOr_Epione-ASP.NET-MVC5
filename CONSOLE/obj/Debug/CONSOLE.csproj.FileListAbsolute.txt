@@ -1,0 +1,79 @@
+c:\users\hamza\documents\visual studio 2015\Projects\PIDEV2018\CONSOLE\bin\Debug\CONSOLE.exe.config
+c:\users\hamza\documents\visual studio 2015\Projects\PIDEV2018\CONSOLE\bin\Debug\CONSOLE.exe
+c:\users\hamza\documents\visual studio 2015\Projects\PIDEV2018\CONSOLE\bin\Debug\CONSOLE.pdb
+c:\users\hamza\documents\visual studio 2015\Projects\PIDEV2018\CONSOLE\bin\Debug\DOMAIN.dll
+c:\users\hamza\documents\visual studio 2015\Projects\PIDEV2018\CONSOLE\bin\Debug\EntityFramework.dll
+c:\users\hamza\documents\visual studio 2015\Projects\PIDEV2018\CONSOLE\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\hamza\documents\visual studio 2015\Projects\PIDEV2018\CONSOLE\bin\Debug\SERVICE.dll
+c:\users\hamza\documents\visual studio 2015\Projects\PIDEV2018\CONSOLE\bin\Debug\SERVICEPATTERN.dll
+c:\users\hamza\documents\visual studio 2015\Projects\PIDEV2018\CONSOLE\bin\Debug\DATA.dll
+c:\users\hamza\documents\visual studio 2015\Projects\PIDEV2018\CONSOLE\bin\Debug\DOMAIN.pdb
+c:\users\hamza\documents\visual studio 2015\Projects\PIDEV2018\CONSOLE\bin\Debug\SERVICEPATTERN.pdb
+c:\users\hamza\documents\visual studio 2015\Projects\PIDEV2018\CONSOLE\bin\Debug\SERVICE.pdb
+c:\users\hamza\documents\visual studio 2015\Projects\PIDEV2018\CONSOLE\bin\Debug\EntityFramework.xml
+c:\users\hamza\documents\visual studio 2015\Projects\PIDEV2018\CONSOLE\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\hamza\documents\visual studio 2015\Projects\PIDEV2018\CONSOLE\bin\Debug\DATA.pdb
+c:\users\hamza\documents\visual studio 2015\Projects\PIDEV2018\CONSOLE\obj\Debug\CONSOLE.csprojResolveAssemblyReference.cache
+c:\users\hamza\documents\visual studio 2015\Projects\PIDEV2018\CONSOLE\obj\Debug\CONSOLE.exe
+c:\users\hamza\documents\visual studio 2015\Projects\PIDEV2018\CONSOLE\obj\Debug\CONSOLE.pdb
+C:\Users\omri_\OneDrive\Documents\Visual Studio 2015\Projects\Epione-Project\CONSOLE\bin\Debug\CONSOLE.exe.config
+C:\Users\omri_\OneDrive\Documents\Visual Studio 2015\Projects\Epione-Project\CONSOLE\obj\Debug\CONSOLE.exe
+C:\Users\omri_\OneDrive\Documents\Visual Studio 2015\Projects\Epione-Project\CONSOLE\obj\Debug\CONSOLE.pdb
+C:\Users\omri_\OneDrive\Documents\Visual Studio 2015\Projects\Epione-Project\CONSOLE\bin\Debug\CONSOLE.exe
+C:\Users\omri_\OneDrive\Documents\Visual Studio 2015\Projects\Epione-Project\CONSOLE\bin\Debug\CONSOLE.pdb
+C:\Users\omri_\OneDrive\Documents\Visual Studio 2015\Projects\Epione-Project\CONSOLE\bin\Debug\DOMAIN.dll
+C:\Users\omri_\OneDrive\Documents\Visual Studio 2015\Projects\Epione-Project\CONSOLE\bin\Debug\EntityFramework.dll
+C:\Users\omri_\OneDrive\Documents\Visual Studio 2015\Projects\Epione-Project\CONSOLE\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\omri_\OneDrive\Documents\Visual Studio 2015\Projects\Epione-Project\CONSOLE\bin\Debug\SERVICE.dll
+C:\Users\omri_\OneDrive\Documents\Visual Studio 2015\Projects\Epione-Project\CONSOLE\bin\Debug\SERVICEPATTERN.dll
+C:\Users\omri_\OneDrive\Documents\Visual Studio 2015\Projects\Epione-Project\CONSOLE\bin\Debug\DATA.dll
+C:\Users\omri_\OneDrive\Documents\Visual Studio 2015\Projects\Epione-Project\CONSOLE\bin\Debug\DOMAIN.pdb
+C:\Users\omri_\OneDrive\Documents\Visual Studio 2015\Projects\Epione-Project\CONSOLE\bin\Debug\SERVICEPATTERN.pdb
+C:\Users\omri_\OneDrive\Documents\Visual Studio 2015\Projects\Epione-Project\CONSOLE\bin\Debug\SERVICE.pdb
+C:\Users\omri_\OneDrive\Documents\Visual Studio 2015\Projects\Epione-Project\CONSOLE\bin\Debug\EntityFramework.xml
+C:\Users\omri_\OneDrive\Documents\Visual Studio 2015\Projects\Epione-Project\CONSOLE\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\omri_\OneDrive\Documents\Visual Studio 2015\Projects\Epione-Project\CONSOLE\bin\Debug\DATA.pdb
+C:\Users\omri_\OneDrive\Documents\Visual Studio 2015\Projects\Epione-Project\CONSOLE\obj\Debug\CONSOLE.csprojResolveAssemblyReference.cache
+F:\cours\PI\MyWork\Epione-Project\CONSOLE\bin\Debug\CONSOLE.exe.config
+F:\cours\PI\MyWork\Epione-Project\CONSOLE\bin\Debug\CONSOLE.exe
+F:\cours\PI\MyWork\Epione-Project\CONSOLE\bin\Debug\CONSOLE.pdb
+F:\cours\PI\MyWork\Epione-Project\CONSOLE\bin\Debug\DOMAIN.dll
+F:\cours\PI\MyWork\Epione-Project\CONSOLE\bin\Debug\EntityFramework.dll
+F:\cours\PI\MyWork\Epione-Project\CONSOLE\bin\Debug\EntityFramework.SqlServer.dll
+F:\cours\PI\MyWork\Epione-Project\CONSOLE\bin\Debug\SERVICE.dll
+F:\cours\PI\MyWork\Epione-Project\CONSOLE\bin\Debug\SERVICEPATTERN.dll
+F:\cours\PI\MyWork\Epione-Project\CONSOLE\bin\Debug\DATA.dll
+F:\cours\PI\MyWork\Epione-Project\CONSOLE\bin\Debug\DOMAIN.pdb
+F:\cours\PI\MyWork\Epione-Project\CONSOLE\bin\Debug\SERVICEPATTERN.pdb
+F:\cours\PI\MyWork\Epione-Project\CONSOLE\bin\Debug\SERVICE.pdb
+F:\cours\PI\MyWork\Epione-Project\CONSOLE\bin\Debug\EntityFramework.xml
+F:\cours\PI\MyWork\Epione-Project\CONSOLE\bin\Debug\EntityFramework.SqlServer.xml
+F:\cours\PI\MyWork\Epione-Project\CONSOLE\bin\Debug\DATA.pdb
+F:\cours\PI\MyWork\Epione-Project\CONSOLE\obj\Debug\CONSOLE.csprojResolveAssemblyReference.cache
+F:\cours\PI\MyWork\Epione-Project\CONSOLE\obj\Debug\CONSOLE.exe
+F:\cours\PI\MyWork\Epione-Project\CONSOLE\obj\Debug\CONSOLE.pdb
+G:\cours\PI\MyWork\Epione-Project\CONSOLE\bin\Debug\CONSOLE.exe.config
+G:\cours\PI\MyWork\Epione-Project\CONSOLE\bin\Debug\CONSOLE.exe
+G:\cours\PI\MyWork\Epione-Project\CONSOLE\bin\Debug\CONSOLE.pdb
+G:\cours\PI\MyWork\Epione-Project\CONSOLE\bin\Debug\DOMAIN.dll
+G:\cours\PI\MyWork\Epione-Project\CONSOLE\bin\Debug\EntityFramework.dll
+G:\cours\PI\MyWork\Epione-Project\CONSOLE\bin\Debug\EntityFramework.SqlServer.dll
+G:\cours\PI\MyWork\Epione-Project\CONSOLE\bin\Debug\HtmlAgilityPack.dll
+G:\cours\PI\MyWork\Epione-Project\CONSOLE\bin\Debug\SERVICE.dll
+G:\cours\PI\MyWork\Epione-Project\CONSOLE\bin\Debug\SERVICEPATTERN.dll
+G:\cours\PI\MyWork\Epione-Project\CONSOLE\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\cours\PI\MyWork\Epione-Project\CONSOLE\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+G:\cours\PI\MyWork\Epione-Project\CONSOLE\bin\Debug\DATA.dll
+G:\cours\PI\MyWork\Epione-Project\CONSOLE\bin\Debug\DOMAIN.pdb
+G:\cours\PI\MyWork\Epione-Project\CONSOLE\bin\Debug\SERVICEPATTERN.pdb
+G:\cours\PI\MyWork\Epione-Project\CONSOLE\bin\Debug\SERVICE.pdb
+G:\cours\PI\MyWork\Epione-Project\CONSOLE\bin\Debug\EntityFramework.xml
+G:\cours\PI\MyWork\Epione-Project\CONSOLE\bin\Debug\EntityFramework.SqlServer.xml
+G:\cours\PI\MyWork\Epione-Project\CONSOLE\bin\Debug\HtmlAgilityPack.pdb
+G:\cours\PI\MyWork\Epione-Project\CONSOLE\bin\Debug\HtmlAgilityPack.xml
+G:\cours\PI\MyWork\Epione-Project\CONSOLE\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\cours\PI\MyWork\Epione-Project\CONSOLE\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+G:\cours\PI\MyWork\Epione-Project\CONSOLE\bin\Debug\DATA.pdb
+G:\cours\PI\MyWork\Epione-Project\CONSOLE\obj\Debug\CONSOLE.csprojResolveAssemblyReference.cache
+G:\cours\PI\MyWork\Epione-Project\CONSOLE\obj\Debug\CONSOLE.exe
+G:\cours\PI\MyWork\Epione-Project\CONSOLE\obj\Debug\CONSOLE.pdb

@@ -1,0 +1,233 @@
+﻿@model IEnumerable<EpioneMVC.Models.DoctolibViewModel>
+
+@{
+    Layout = "~/Views/Shared/_header.cshtml";
+}
+
+@*<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.img)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.city)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.path)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.speciality)
+            </th>
+            <th></th>
+        </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.img)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.city)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.path)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.speciality)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.DoctolibId }) |
+                @Html.ActionLink("Details", "Details", new { id=item.DoctolibId }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.DoctolibId })
+            </td>
+        </tr>
+    }
+    
+    </table>
+</body>
+</html>*@
+
+<section class="content">
+    <div class="block-header">
+        <div class="row">
+            <div class="col-lg-5 col-md-5 col-sm-12">
+                <h2>
+                    All Doctors
+                    <small>Welcome to Oreo</small>
+                </h2>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-12 text-right">
+                <button class="btn btn-white btn-icon btn-round hidden-sm-down float-right m-l-10" type="button">
+                    <i class="zmdi zmdi-plus" ></i>
+                  
+                </button>
+                <ul class="breadcrumb float-md-right">
+                    <li class="breadcrumb-item"><a href="index.html"><i class="zmdi zmdi-home"></i> Oreo</a></li>
+                    <li class="breadcrumb-item"><a href="javascript:void(0);">Doctors</a></li>
+                    <li class="breadcrumb-item active">All Doctors</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row clearfix">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="body">
+                        <div class="row clearfix">
+                            <div class="col-sm-6">
+                                    <div class="input-group search">
+                                        <input type="text" id="search_input" onkeyup="myFunction()" class="form-control" placeholder="Search for a Doctor or Speciality">
+                                        <span class="input-group-addon">
+                                            <i class="zmdi zmdi-search"></i>
+                                        </span>
+                                    </div> 
+                              <div id="search" style="display:none">
+                                  <div style="position: relative;">
+                                      <div id="search_output"  class="dl-dropdown dl-layout-container dl-layout-spacing-xs-0 dl-layout-align-xs-center" style="left: 0px; top: -10.5px;">
+                                         
+                                                                                  
+                                      </div>
+                                  </div>
+                                 
+                              </div>
+                                @section Scripts0{
+                                    <script>
+                                        $("#search_input").keyup(function () {
+                                            if ($("#search_input").val() == "") {
+                                                $("#search").hide();
+                                            } else {
+                                                $("#search").show();
+                                            }
+                                        });
+                                        $(document).mouseup(function (e) {
+                                            var container = $("#search");
+
+                                            // if the target of the click isn't the container nor a descendant of the container
+                                            if (!container.is(e.target) && container.has(e.target).length === 0) {
+                                                container.hide();
+                                            }
+                                        });
+
+                                        $("#search_input").keyup(function () {
+                                            if ($("#search_input").val() != "") {
+                                                var i = $("#search_input").val();
+                                                $.ajax({
+                                                    type: "GET",
+                                                    url: "/Doctolib/GetSearch",
+                                                    dataType: 'json',
+                                                    data:{'search':i},
+                                                    success: function (data) {
+                                                        $('#search_output').empty();
+                                                        $.each(data, function (key, value) {
+                                                            if (key == 'specialities') {
+                                                                $.each(value, function (k, v) {
+                                                                    $('#search_output').append('<div onmouseover="this.style.background=' + '\'#ccecfa' + '\';" onmouseout="this.style.background=' + '\'white' + '\';" onclick="location.href=' + '\'http://localhost:1896/Doctolib/Index?speciality=' + v.slug + '\';" class="searchbar-result">'
+                                                          + '<div class="searchbar-result-speciality">'
+                                                              + '<span>' + v.name + ' </span>'
+                                                         + ' </div>'
+                                                     + ' </div>')
+                                                                });
+                                                            }
+
+                                                            if (key == 'profiles') {
+                                                                $.each(value, function (k, v) {
+                                                                    $('#search_output').append('<div onmouseover="this.style.background=' + '\'#ccecfa' + '\';" onmouseout="this.style.background=' + '\'white' + '\';" onclick="location.href=' + '\'http://localhost:1896/Doctolib/Details?path=' + v.link + '&adress=' + v.city + '\';" class="searchbar-result searchbar-result-profile-wrapper">'
+                                                 + ' <div class="searchbar-result-profile">'
+                                                     + '<div class="searchbar-result-profile-avatar">'
+                                                        + '  <img src="//res.cloudinary.com/doctolib/image/upload/q_auto,f_auto,dpr_2/w_62,h_62,c_fill,g_face/' + v.cloudinary_public_id + '" class="dl-image dl-image-rounded">'
+                                                      +'</div>'
+                                                      +'<div class="searchbar-result-profile-details">'
+                                                      + '    <span>' + v.name + '</span>'
+                                                       +'   <div class="searchbar-result-profile-subtitle">'
+                                                       + '       <span>         ' + v.kind + ' - '+v.city+'      </span>'
+                                                         +' </div>'
+                                                     +' </div>'
+                                                  +'</div>'
+                                              +'</div>')
+                                                                });
+                                                            }
+                                                        });
+
+                                                    }
+                                                    ,
+                                                    error: function (error) {
+                                                        alert('you have to connect');
+                                                    }
+                                                });
+                                            }});
+                                       
+                                    </script>
+
+                                }
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content m-t-10">
+                    <div class="tab-pane active" id="Permanent">
+                        <div class="row clearfix">
+                            @foreach (var item in Model)
+                            {
+                            <div class="col-lg-3 col-md-4 col-sm-6" style="height:528px;">
+                                <div class="card xl-blue member-card doctor" style="height:500px;">
+                                    <div class="body">
+                                        <div class="member-thumb">
+                                            <img src=@Html.DisplayFor(modelItem => item.img) class="img-fluid" alt="profile-image">
+                                        </div>
+                                        <div class="detail">    
+                                            <h4 class="m-b-0">@Html.DisplayFor(modelItem => item.name)</h4>
+                                            <p class="text-muted">@Html.DisplayFor(modelItem => item.speciality)</p>
+                                            <p class="text-muted">@Html.DisplayFor(modelItem => item.address)</p>
+                                            <a href=@Url.Action("Details", "Doctolib", new { path = item.path,adress=item.address}) class="btn btn-default btn-round btn-simple">View Profile</a>
+                      
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card m-t-5">
+        <div class="body">
+            @{
+                if (ViewBag.page != 1)
+                {
+                    <a onmouseover="this.style.background = '#ccecfa';" onmouseout="    this.style.background = 'white';" style="float:left" href=@Url.Action("Index", "Doctolib", new { speciality = ViewBag.speciality, page = (ViewBag.page - 1) }) class="btn btn-default btn-round btn-simple">Previous Page</a>
+
+                    
+                }
+            }
+            <a onmouseover="this.style.background = '#ccecfa';" onmouseout="    this.style.background = 'white';" style="float:right" href=@Url.Action("Index", "Doctolib", new { speciality = ViewBag.speciality, page = (ViewBag.page + 1) }) class="btn btn-default btn-round btn-simple">Next Page</a>
+
+    </div>
+       </div>
+</section>
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
